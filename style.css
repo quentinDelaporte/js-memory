@@ -1,0 +1,21 @@
+body{
+  background-color: slategray;
+}
+
+.grille-cartes {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 300px;
+  margin: auto;
+}
+button{
+  background-color: slategray;
+  border:0;
+  min-width: 150px;
+  min-height: 150px;
+}
+button:hover {
+  background-color: rgb(87, 101, 114);
+  border:0;
+}
